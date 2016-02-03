@@ -39,7 +39,7 @@ body {
 
 .font-2 {
 	font-family: 'Montserrat', sans-serif;
-	letter-spacing: .2rem;
+	letter-spacing: .1rem;
 }
 
 .slide {
@@ -239,7 +239,7 @@ a.navbar-brand {
 }
 
 .title {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	line-height: 3rem;
 	letter-spacing: .3rem;
 }
@@ -269,6 +269,10 @@ a.navbar-brand {
 
 #about h3 {
 	font-size: 1.8rem; 
+}
+
+p {
+	line-height: 1.7rem;
 }
 
 .info-cols .col-xs-12 {
