@@ -1,0 +1,294 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+html {
+	  font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+html {
+	  font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+html {
+	  font-size: 20px;
+	}
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+.font-1 {
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	letter-spacing: .1rem;
+}
+
+.font-2 {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: .2rem;
+}
+
+.slide {
+	min-height: 100vh;
+/*	border: 1px solid white;
+*/}
+
+.background-image {
+  
+  background: linear-gradient(rgba(17, 57, 66, .52), rgba(17, 57, 66, .52)), url(../images/background.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.content {
+	box-sizing: border-box;
+	min-height: 100%;
+/*	padding: 0 0 80px;
+*/	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	margin: 0;
+}
+
+.footer {
+/*	bottom: 0;
+	left: 0;
+	position: absolute;*/
+	height: 25vh;
+	width: 100%;
+	background-color: #113942;
+	color: white;
+}
+
+.nav-logo {
+	height: 4rem;
+	margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+	.nav-logo {
+		height: 3rem;
+		margin-top: 8px;
+	}
+}
+
+.navbar {
+	background-color: rgba(13, 57, 65, 0.9);
+	border-radius: 0;
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+
+}
+
+a.navbar-brand {
+	padding: 0;
+}
+.navbar-toggle {
+	color: white;
+	height: 4rem;
+	width: 4rem;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: white;
+	height: .3rem;
+	width: 100%;
+	margin-top: .3rem;
+}
+
+.navbar-default, .navbar-collapse {
+	border: none;
+}
+
+.nav li a {
+	color: white;
+	font-size: .8rem;
+	line-height: 2.5rem;
+	letter-spacing: .1rem;
+}
+
+.nav li a:hover {
+	background-color: rgba(160, 255, 216, .5);
+}
+
+.nav li a:focus {
+	background-color: rgba(160, 255, 216, .5);
+}
+
+.footer p {
+	padding: 25px;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+}
+
+.footer a {
+	color: white;
+}
+
+.splash-logo {
+	height: 6rem;
+}
+
+.carousel {
+	height: 100%;
+	background-color: white;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+.carousel-inner .item img {
+	height: 350px;
+}
+
+@media (min-width: 768px) {
+	.carousel-inner .item img {
+		height: 100vh;
+	}
+}
+
+.slide-text {
+/*	height: 100vh;
+*/	color: black;
+	padding: 40px;
+}
+
+.slide-text h4 {
+	margin-top: 0;
+	margin-bottom: 4%;
+}
+
+.slide-img {
+/*	height: 100vh;
+*/}
+
+#home {
+  position: relative;
+}
+
+.splash-box {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+
+.title {
+	font-size: 1.5rem;
+	line-height: 3rem;
+	letter-spacing: .4rem;
+}
+
+.info-cols {
+	color: white;
+	text-align: center;
+	font-size: .9rem;
+}
+
+.white-text {
+	color: white;
+}
+
+.blue-text {
+	color: #113942;
+}
+
+.grey-text {
+	color: #333333;
+}
+
+#info {
+	background-color: white;
+}
+
+#info h3 {
+	margin-top: 4rem;
+	font-size: 1.8rem; 
+}
+
+.info-cols .col-xs-12 {
+	margin-top: 5%;
+}
+
+.carousel-slide {
+	min-height: 100vh;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.carousel-indicators li {
+	border: 1px solid #00393B;
+	background-color: rgba(160, 255, 216, .5);
+}
+
+.carousel-control {
+	background-image: none !important;
+	color: #A0FFD8;
+}
+
+#signup {
+	text-align: center;
+}
+
+.about-icon {
+	height: 10rem;
+}
+
+hr {
+	margin: 0;
+	border-top: 2px solid #eee;
+}
+
+#carousel h3 {
+	margin-top: 4rem;
+	font-size: 1.8rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
