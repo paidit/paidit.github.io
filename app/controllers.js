@@ -10,22 +10,26 @@ app.controller('CarouselCtrl', function ($scope) {
   	{
   		id: 0,
   		image: "../images/screenshot1.png",
-  		text: "Text for the first slide"
+      title: "SIGN UP FOR PAIDIT",
+  		text: "Sign up and log in securely and easily with your Facebook or Gmail account."
   	},
   	{
   		id: 1,
   		image: "../images/screenshot2.png",
-  		text: "Text for the second slide"
+      title: "CREATE A RECORD",
+  		text: "When you're ready to record a money order, check, or cash payment, enter the details you would like recorded. Capture a picture of the front of your check or money order."
   	},
   	{
   		id: 2,
   		image: "../images/screenshot3.png",
-  		text: "Text for the third slide"
+      title: "REVIEW YOUR INFORMATION AND NOTIFY RECIPIENT",
+  		text: "Make any changes to your record and choose to notify your landlord, or other recipient."
   	},
   	{
   		id: 3,
   		image: "../images/screenshot4.png",
-  		text: "Text for the fourth slide"
+      title: "SEND NOTICE",
+  		text: "Send an email with your native service provider and add any additional notes. We'll create a timestamp on this transaction."
   	}
   ];
 
